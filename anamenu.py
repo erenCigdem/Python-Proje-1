@@ -1,0 +1,58 @@
+def anamenu():
+    print("\n")
+    print("╔═════════════════════════════════════╗")
+    print("║         PYTHON ÇALIŞMALARI          ║")
+    print("║                                     ║")
+    print("║  1- HESAP MAKİNESİ (Alt Menü)       ║")
+    print("║  2- OYUNLAR (Alt Menü)              ║")
+    print("║  3- ŞEKİL ÇİZDİRME (Alt Menü)       ║")
+    print("║  4- TAKVİM VE YAŞ HESAPLAMA         ║")
+    print("║  5- RİTMİK SAYMA                    ║")
+    print("║  6- NOT HESAPLAMA (Alt Menü)        ║")
+    print("║  7- ÇARPIM TABLOSU                  ║")
+    print("║  8- BMI (İDEAL KİLO) HESAPLAMA      ║")
+    print("║  9- DÖVİZ / BİRİM ÇEVİRİCİ          ║")
+    print("║ 10- SICAKLIK ÇEVİRME                ║")
+    print("║ 11- ÇIKIŞ                           ║")
+    print("╚═════════════════════════════════════╝")
+    
+    secim = input("Seçiminiz: ")
+
+    if secim == "1":
+        print("\n>>> Hesap Makinesi açılıyor...")
+        anamenu()
+    elif secim == "2":
+        print("\n>>> Oyunlar menüsü açılıyor...")
+        anamenu()
+    elif secim == "3":
+        print("\n>>> Şekil Çizdirme menüsü açılıyor...")
+        anamenu()
+    elif secim == "4":
+        print("\n>>> Takvim ve Yaş Hesaplama açılıyor...")
+        anamenu()
+    elif secim == "5":
+        print("\n>>> Ritmik Sayma açılıyor...")
+        anamenu()
+    elif secim == "6":
+        print("\n>>> Not Hesaplama menüsü açılıyor...")
+        anamenu()
+    elif secim == "7":
+        print("\n>>> Çarpım Tablosu açılıyor...")
+        anamenu()
+    elif secim == "8":
+        print("\n>>> BMI Hesaplama açılıyor...")
+        anamenu()
+    elif secim == "9":
+        print("\n>>> Döviz / Birim Çevirici açılıyor...")
+        anamenu()
+    elif secim == "10":
+        print("\n>>> Sıcaklık Çevirme açılıyor...")
+        anamenu()
+    elif secim == "11":
+        print("\nProgramdan çıkılıyor... İyi günler!")
+    else:
+        print("\n[!] Hatalı seçim yaptınız! Lütfen menüdeki seçeneklerden birini giriniz.")
+        anamenu()
+
+# Programı başlatıyoruz
+anamenu()
