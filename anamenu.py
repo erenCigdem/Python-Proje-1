@@ -54,5 +54,4 @@ def anamenu():
         print("\n[!] Hatalı seçim yaptınız! Lütfen menüdeki seçeneklerden birini giriniz.")
         anamenu()
 
-# Programı başlatıyoruz
 anamenu()
