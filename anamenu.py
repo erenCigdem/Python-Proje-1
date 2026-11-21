@@ -1,6 +1,7 @@
 import hesapmakinesi
 import oyunlar
 import cizimler
+import takvim
 def anamenu():
     print("\n")
     print("╔═════════════════════════════════════╗")
@@ -35,6 +36,7 @@ def anamenu():
         anamenu()
     elif secim == "4":
         print("\n>>> Takvim ve Yaş Hesaplama açılıyor...")
+        takvim.takvim_menu()
         anamenu()
     elif secim == "5":
         print("\n>>> Ritmik Sayma açılıyor...")
