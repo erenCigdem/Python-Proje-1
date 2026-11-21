@@ -1,5 +1,6 @@
 import hesapmakinesi
 import oyunlar
+import cizimler
 def anamenu():
     print("\n")
     print("╔═════════════════════════════════════╗")
@@ -30,6 +31,7 @@ def anamenu():
         anamenu()
     elif secim == "3":
         print("\n>>> Şekil Çizdirme menüsü açılıyor...")
+        cizimler.cizim_menu()
         anamenu()
     elif secim == "4":
         print("\n>>> Takvim ve Yaş Hesaplama açılıyor...")
