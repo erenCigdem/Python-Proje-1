@@ -1,3 +1,4 @@
+import hesapmakinesi
 def anamenu():
     print("\n")
     print("╔═════════════════════════════════════╗")
@@ -20,6 +21,7 @@ def anamenu():
 
     if secim == "1":
         print("\n>>> Hesap Makinesi açılıyor...")
+        hesapmakinesi.hm_menu()
         anamenu()
     elif secim == "2":
         print("\n>>> Oyunlar menüsü açılıyor...")
