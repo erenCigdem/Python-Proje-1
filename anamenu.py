@@ -1,4 +1,5 @@
 import hesapmakinesi
+import oyunlar
 def anamenu():
     print("\n")
     print("╔═════════════════════════════════════╗")
@@ -25,6 +26,7 @@ def anamenu():
         anamenu()
     elif secim == "2":
         print("\n>>> Oyunlar menüsü açılıyor...")
+        oyunlar.oyun_menu()
         anamenu()
     elif secim == "3":
         print("\n>>> Şekil Çizdirme menüsü açılıyor...")
