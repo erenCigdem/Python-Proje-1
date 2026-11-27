@@ -40,7 +40,7 @@ def anamenu():
         anamenu()
     elif secim == "5":
         print("\n>>> Ritmik Sayma açılıyor...")
-        anamenu()
+        ritmik.ritmik_menu()
     elif secim == "6":
         print("\n>>> Not Hesaplama menüsü açılıyor...")
         anamenu()
