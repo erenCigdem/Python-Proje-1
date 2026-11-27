@@ -1,7 +1,8 @@
-import hesapmakinesi
-import oyunlar
-import cizimler
-import takvim
+import moduller.hesapmakinesi as hesapmakinesi
+import moduller.oyunlar as oyunlar
+import moduller.cizimler as cizimler
+import moduller.takvim as takvim
+import moduller.ritmik as ritmik
 def anamenu():
     print("\n")
     print("╔═════════════════════════════════════╗")
@@ -41,6 +42,7 @@ def anamenu():
     elif secim == "5":
         print("\n>>> Ritmik Sayma açılıyor...")
         ritmik.ritmik_menu()
+        anamenu()
     elif secim == "6":
         print("\n>>> Not Hesaplama menüsü açılıyor...")
         anamenu()
