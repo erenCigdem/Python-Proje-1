@@ -3,6 +3,7 @@ import moduller.oyunlar as oyunlar
 import moduller.cizimler as cizimler
 import moduller.takvim as takvim
 import moduller.ritmik as ritmik
+import moduller.nothesaplama as nothesaplama
 def anamenu():
     print("\n")
     print("╔═════════════════════════════════════╗")
@@ -45,6 +46,7 @@ def anamenu():
         anamenu()
     elif secim == "6":
         print("\n>>> Not Hesaplama menüsü açılıyor...")
+        nothesaplama.not_menu()
         anamenu()
     elif secim == "7":
         print("\n>>> Çarpım Tablosu açılıyor...")
