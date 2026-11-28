@@ -4,6 +4,7 @@ import moduller.cizimler as cizimler
 import moduller.takvim as takvim
 import moduller.ritmik as ritmik
 import moduller.nothesaplama as nothesaplama
+import moduller.carpimtablosu as carpimtablosu
 def anamenu():
     print("\n")
     print("╔═════════════════════════════════════╗")
@@ -50,6 +51,7 @@ def anamenu():
         anamenu()
     elif secim == "7":
         print("\n>>> Çarpım Tablosu açılıyor...")
+        carpimtablosu.carpim_menu()
         anamenu()
     elif secim == "8":
         print("\n>>> BMI Hesaplama açılıyor...")
